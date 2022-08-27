@@ -1,0 +1,77 @@
+body{
+	background-color: black;
+}
+img{
+	max-width: 100%;
+	border: 2px white solid;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background-color: whitesmoke;
+	mix-blend-mode: difference;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background-color: gray;
+	border-radius: 30px;
+	mix-blend-mode: difference;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background-color: black;
+	opacity: 0.3s;
+	border-radius: 30px;
+	mix-blend-mode: difference;
+  }
+
+.navbar-brand{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.rating{
+	font-weight: bold;
+}
+
+.release{
+	font-weight: bold;
+}
+
+.eachMovie{
+	background-color: black;
+	color: white;
+}
+.btnModal{
+	background-color: black;
+	margin-bottom: 35px;
+	border: black;
+}
+.modal-content{
+	color: black;
+	padding: 2px;
+	min-width: 656px;
+}
+.moviePosterInModal{
+	padding: 12px;
+}
+.movieName{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Carrois Gothic SC', sans-serif;
+}
+.btn-primary{
+	margin: 5px;
+	padding: 5px;
+	background: transparent;
+	color: #5EADFF;
+	border: 1px solid #5EADFF; 
+}
+#movieGenreLabel{
+	color: white;
+}
